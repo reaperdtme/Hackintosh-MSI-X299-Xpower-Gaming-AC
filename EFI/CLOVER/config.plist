@@ -152,10 +152,12 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
+		<key>C6</key>
+		<false/>
 		<key>Type</key>
 		<string>0x0F01</string>
 		<key>UseARTFrequency</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -234,15 +236,15 @@
 		<key>#FakeCPUID</key>
 		<string>0x010676</string>
 		<key>AppleIntelCPUPM</key>
-		<true/>
+		<false/>
 		<key>AppleRTC</key>
-		<true/>
+		<false/>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
@@ -267,7 +269,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch#1 10.14.4 ©PMHeart</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPD4cLBAAA
@@ -287,7 +289,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch#2 10.14.4 ©PMHeart</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				QYP/Dw+DlAQAAA==
@@ -307,7 +309,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch#3 10.14.4 ©PMHeart</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g+MP0+NBCd8=
@@ -382,6 +384,8 @@
 		<string>C02V90M9HX87</string>
 		<key>SmUUID</key>
 		<string>263B20AB-E52D-4AC8-BDA8-9BDECA901DCD</string>
+		<key>Trust</key>
+		<false/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
